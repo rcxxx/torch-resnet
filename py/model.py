@@ -39,7 +39,6 @@ class BasicBlock(nn.Module):
         out = self.conv_1(x)
         out = self.bn_1(out)
         out = self.relu(out)
-
         out = self.conv_2(out)
         out = self.bn_2(out)
 
